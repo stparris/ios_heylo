@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0221891B2DE701003A885A /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0221881B2DE701003A885A /* AccountViewController.m */; };
+		1C06ADC41B2F5166007DC5D7 /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C06ADC31B2F5166007DC5D7 /* whistle.mp3 */; };
+		1C06ADC71B2F6E2F007DC5D7 /* ReplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06ADC61B2F6E2F007DC5D7 /* ReplyViewController.m */; };
+		1C089DFE1B29E3DD00080A54 /* CardSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C089DFD1B29E3DD00080A54 /* CardSourceViewController.m */; };
+		1C0FE53A1B21FB2900B5AC99 /* FlashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0FE5391B21FB2900B5AC99 /* FlashView.m */; };
+		1C2F3AC61B3F1B0F0015EE80 /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2F3AC51B3F1B0F0015EE80 /* PopupView.m */; };
+		1CD0625F1AFC69ED004CBCFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0625E1AFC69ED004CBCFB /* main.m */; };
+		1CD062621AFC69ED004CBCFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062611AFC69ED004CBCFB /* AppDelegate.m */; };
+		1CD0626A1AFC69ED004CBCFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062691AFC69ED004CBCFB /* Images.xcassets */; };
+		1CD0626D1AFC69ED004CBCFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD0626B1AFC69ED004CBCFB /* LaunchScreen.xib */; };
+		1CD062791AFC69ED004CBCFB /* HeyloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062781AFC69ED004CBCFB /* HeyloTests.m */; };
+		1CD062E11AFC6ABD004CBCFB /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062841AFC6ABD004CBCFB /* SettingsViewController.m */; };
+		1CD062E21AFC6ABD004CBCFB /* CardCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062861AFC6ABD004CBCFB /* CardCategoryCell.m */; };
+		1CD062E31AFC6ABD004CBCFB /* CardCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062881AFC6ABD004CBCFB /* CardCategoryViewController.m */; };
+		1CD062E41AFC6ABD004CBCFB /* CardCustomizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0628A1AFC6ABD004CBCFB /* CardCustomizeViewController.m */; };
+		1CD062E51AFC6ABD004CBCFB /* CardImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0628C1AFC6ABD004CBCFB /* CardImageCell.m */; };
+		1CD062E61AFC6ABD004CBCFB /* CardSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0628E1AFC6ABD004CBCFB /* CardSelectViewController.m */; };
+		1CD062E71AFC6ABD004CBCFB /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062901AFC6ABD004CBCFB /* ConversationViewController.m */; };
+		1CD062E81AFC6ABD004CBCFB /* ConvImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062921AFC6ABD004CBCFB /* ConvImageTableViewCell.m */; };
+		1CD062E91AFC6ABD004CBCFB /* ConvToTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062941AFC6ABD004CBCFB /* ConvToTableViewCell.m */; };
+		1CD062EA1AFC6ABD004CBCFB /* CountryCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062961AFC6ABD004CBCFB /* CountryCodeViewController.m */; };
+		1CD062EB1AFC6ABD004CBCFB /* CountrySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062981AFC6ABD004CBCFB /* CountrySearchViewController.m */; };
+		1CD062EC1AFC6ABD004CBCFB /* FindFriendsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0629A1AFC6ABD004CBCFB /* FindFriendsTableViewCell.m */; };
+		1CD062ED1AFC6ABD004CBCFB /* FindFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0629C1AFC6ABD004CBCFB /* FindFriendsViewController.m */; };
+		1CD062EE1AFC6ABD004CBCFB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0629E1AFC6ABD004CBCFB /* HomeViewController.m */; };
+		1CD062EF1AFC6ABD004CBCFB /* InboxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062A01AFC6ABD004CBCFB /* InboxTableViewCell.m */; };
+		1CD062F01AFC6ABD004CBCFB /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062A21AFC6ABD004CBCFB /* InboxViewController.m */; };
+		1CD062F11AFC6ABD004CBCFB /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062A41AFC6ABD004CBCFB /* IntroViewController.m */; };
+		1CD062F21AFC6ABD004CBCFB /* InviteFriendsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062A61AFC6ABD004CBCFB /* InviteFriendsSearchViewController.m */; };
+		1CD062F31AFC6ABD004CBCFB /* InviteFriendsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062A81AFC6ABD004CBCFB /* InviteFriendsTableViewCell.m */; };
+		1CD062F41AFC6ABD004CBCFB /* InviteFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062AA1AFC6ABD004CBCFB /* InviteFriendsViewController.m */; };
+		1CD062F51AFC6ABD004CBCFB /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062AC1AFC6ABD004CBCFB /* MessagesViewController.m */; };
+		1CD062F61AFC6ABD004CBCFB /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062AE1AFC6ABD004CBCFB /* RegistrationViewController.m */; };
+		1CD062F71AFC6ABD004CBCFB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062B01AFC6ABD004CBCFB /* RootViewController.m */; };
+		1CD062F81AFC6ABD004CBCFB /* SendCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062B21AFC6ABD004CBCFB /* SendCardTableViewCell.m */; };
+		1CD062F91AFC6ABD004CBCFB /* SendCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062B41AFC6ABD004CBCFB /* SendCardViewController.m */; };
+		1CD062FA1AFC6ABD004CBCFB /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062B61AFC6ABD004CBCFB /* UserDetailsViewController.m */; };
+		1CD062FB1AFC6ABD004CBCFB /* default_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062B81AFC6ABD004CBCFB /* default_avatar.png */; };
+		1CD062FC1AFC6ABD004CBCFB /* default_avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062B91AFC6ABD004CBCFB /* default_avatar@2x.png */; };
+		1CD062FD1AFC6ABD004CBCFB /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062BA1AFC6ABD004CBCFB /* Icon-60@2x.png */; };
+		1CD062FE1AFC6ABD004CBCFB /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062BB1AFC6ABD004CBCFB /* icon-60@3x.png */; };
+		1CD062FF1AFC6ABD004CBCFB /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062BC1AFC6ABD004CBCFB /* Icon-76.png */; };
+		1CD063001AFC6ABD004CBCFB /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062BD1AFC6ABD004CBCFB /* Icon-76@2x.png */; };
+		1CD063011AFC6ABD004CBCFB /* Icon-Small-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062BE1AFC6ABD004CBCFB /* Icon-Small-40.png */; };
+		1CD063021AFC6ABD004CBCFB /* Icon-Small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062BF1AFC6ABD004CBCFB /* Icon-Small-40@2x.png */; };
+		1CD063031AFC6ABD004CBCFB /* Icon-Small-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062C01AFC6ABD004CBCFB /* Icon-Small-40@3x.png */; };
+		1CD063041AFC6ABD004CBCFB /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062C11AFC6ABD004CBCFB /* Icon-Small.png */; };
+		1CD063051AFC6ABD004CBCFB /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062C21AFC6ABD004CBCFB /* Icon-Small@2x.png */; };
+		1CD063061AFC6ABD004CBCFB /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062C31AFC6ABD004CBCFB /* Icon-Small@3x.png */; };
+		1CD063071AFC6ABD004CBCFB /* ABRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062C61AFC6ABD004CBCFB /* ABRecord.m */; };
+		1CD063081AFC6ABD004CBCFB /* CardCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062C81AFC6ABD004CBCFB /* CardCategory.m */; };
+		1CD063091AFC6ABD004CBCFB /* CardImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062CA1AFC6ABD004CBCFB /* CardImage.m */; };
+		1CD0630A1AFC6ABD004CBCFB /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062CC1AFC6ABD004CBCFB /* Contact.m */; };
+		1CD0630B1AFC6ABD004CBCFB /* Conversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062CE1AFC6ABD004CBCFB /* Conversation.m */; };
+		1CD0630C1AFC6ABD004CBCFB /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062D01AFC6ABD004CBCFB /* Country.m */; };
+		1CD0630D1AFC6ABD004CBCFB /* HeyloConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062D21AFC6ABD004CBCFB /* HeyloConnection.m */; };
+		1CD0630E1AFC6ABD004CBCFB /* HeyloData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062D41AFC6ABD004CBCFB /* HeyloData.m */; };
+		1CD0630F1AFC6ABD004CBCFB /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062D61AFC6ABD004CBCFB /* ImageCache.m */; };
+		1CD063101AFC6ABD004CBCFB /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062D81AFC6ABD004CBCFB /* Message.m */; };
+		1CD063111AFC6ABD004CBCFB /* GetMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062DA1AFC6ABD004CBCFB /* GetMessages.m */; };
+		1CD063121AFC6ABD004CBCFB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062DC1AFC6ABD004CBCFB /* User.m */; };
+		1CD063131AFC6ABD004CBCFB /* HeaderGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD062DF1AFC6ABD004CBCFB /* HeaderGradientView.m */; };
+		1CD063141AFC6ABD004CBCFB /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD062E01AFC6ABD004CBCFB /* RootView.xib */; };
+		1CD063161AFC6AD7004CBCFB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD063151AFC6AD7004CBCFB /* AddressBook.framework */; };
+		1CD063181AFC6AE2004CBCFB /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD063171AFC6AE2004CBCFB /* AddressBookUI.framework */; };
+		1CD0631A1AFC6AFA004CBCFB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD063191AFC6AFA004CBCFB /* libsqlite3.dylib */; };
+		1CD0631D1AFC6C71004CBCFB /* ConvFromTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0631C1AFC6C71004CBCFB /* ConvFromTableViewCell.m */; };
+		1CD063241AFC6D49004CBCFB /* find_friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD0631E1AFC6D49004CBCFB /* find_friends.png */; };
+		1CD063251AFC6D49004CBCFB /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD0631F1AFC6D49004CBCFB /* fontello.ttf */; };
+		1CD063261AFC6D49004CBCFB /* heylo_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD063201AFC6D49004CBCFB /* heylo_image.png */; };
+		1CD063271AFC6D49004CBCFB /* heylo_intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD063211AFC6D49004CBCFB /* heylo_intro.png */; };
+		1CD063281AFC6D49004CBCFB /* heylo_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD063221AFC6D49004CBCFB /* heylo_logo.png */; };
+		1CD063291AFC6D49004CBCFB /* heylo.db in Resources */ = {isa = PBXBuildFile; fileRef = 1CD063231AFC6D49004CBCFB /* heylo.db */; };
+		1CFBAD921B261B8500849C8A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFBAD911B261B8500849C8A /* AVFoundation.framework */; };
+		1CFBAD971B261FC000849C8A /* alert1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBAD941B261FC000849C8A /* alert1.wav */; };
+		1CFBAD981B261FC000849C8A /* alert2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBAD951B261FC000849C8A /* alert2.wav */; };
+		1CFBAD991B261FC000849C8A /* alert3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBAD961B261FC000849C8A /* alert3.wav */; };
+		1CFBAD9B1B26252000849C8A /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBAD9A1B26252000849C8A /* tap.aif */; };
+		1CFBAD9D1B26266A00849C8A /* arrow_swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBAD9C1B26266A00849C8A /* arrow_swoosh.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CD062731AFC69ED004CBCFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CD062511AFC69EC004CBCFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD062581AFC69ED004CBCFB;
+			remoteInfo = Heylo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C0221871B2DE701003A885A /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		1C0221881B2DE701003A885A /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		1C06ADC31B2F5166007DC5D7 /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
+		1C06ADC51B2F6E2F007DC5D7 /* ReplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyViewController.h; sourceTree = "<group>"; };
+		1C06ADC61B2F6E2F007DC5D7 /* ReplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyViewController.m; sourceTree = "<group>"; };
+		1C089DFC1B29E3DD00080A54 /* CardSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSourceViewController.h; sourceTree = "<group>"; };
+		1C089DFD1B29E3DD00080A54 /* CardSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSourceViewController.m; sourceTree = "<group>"; };
+		1C0FE5381B21FB2900B5AC99 /* FlashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashView.h; sourceTree = "<group>"; };
+		1C0FE5391B21FB2900B5AC99 /* FlashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashView.m; sourceTree = "<group>"; };
+		1C2F3AC41B3F1B0F0015EE80 /* PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		1C2F3AC51B3F1B0F0015EE80 /* PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		1CD062591AFC69ED004CBCFB /* Heylo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heylo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD0625D1AFC69ED004CBCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD0625E1AFC69ED004CBCFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CD062601AFC69ED004CBCFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CD062611AFC69ED004CBCFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CD062691AFC69ED004CBCFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CD0626C1AFC69ED004CBCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1CD062721AFC69ED004CBCFB /* HeyloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD062771AFC69ED004CBCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD062781AFC69ED004CBCFB /* HeyloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeyloTests.m; sourceTree = "<group>"; };
+		1CD062831AFC6ABD004CBCFB /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		1CD062841AFC6ABD004CBCFB /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		1CD062851AFC6ABD004CBCFB /* CardCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCategoryCell.h; sourceTree = "<group>"; };
+		1CD062861AFC6ABD004CBCFB /* CardCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCategoryCell.m; sourceTree = "<group>"; };
+		1CD062871AFC6ABD004CBCFB /* CardCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCategoryViewController.h; sourceTree = "<group>"; };
+		1CD062881AFC6ABD004CBCFB /* CardCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCategoryViewController.m; sourceTree = "<group>"; };
+		1CD062891AFC6ABD004CBCFB /* CardCustomizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCustomizeViewController.h; sourceTree = "<group>"; };
+		1CD0628A1AFC6ABD004CBCFB /* CardCustomizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCustomizeViewController.m; sourceTree = "<group>"; };
+		1CD0628B1AFC6ABD004CBCFB /* CardImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardImageCell.h; sourceTree = "<group>"; };
+		1CD0628C1AFC6ABD004CBCFB /* CardImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardImageCell.m; sourceTree = "<group>"; };
+		1CD0628D1AFC6ABD004CBCFB /* CardSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSelectViewController.h; sourceTree = "<group>"; };
+		1CD0628E1AFC6ABD004CBCFB /* CardSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSelectViewController.m; sourceTree = "<group>"; };
+		1CD0628F1AFC6ABD004CBCFB /* ConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
+		1CD062901AFC6ABD004CBCFB /* ConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
+		1CD062911AFC6ABD004CBCFB /* ConvImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvImageTableViewCell.h; sourceTree = "<group>"; };
+		1CD062921AFC6ABD004CBCFB /* ConvImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvImageTableViewCell.m; sourceTree = "<group>"; };
+		1CD062931AFC6ABD004CBCFB /* ConvToTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvToTableViewCell.h; sourceTree = "<group>"; };
+		1CD062941AFC6ABD004CBCFB /* ConvToTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvToTableViewCell.m; sourceTree = "<group>"; };
+		1CD062951AFC6ABD004CBCFB /* CountryCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCodeViewController.h; sourceTree = "<group>"; };
+		1CD062961AFC6ABD004CBCFB /* CountryCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCodeViewController.m; sourceTree = "<group>"; };
+		1CD062971AFC6ABD004CBCFB /* CountrySearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountrySearchViewController.h; sourceTree = "<group>"; };
+		1CD062981AFC6ABD004CBCFB /* CountrySearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountrySearchViewController.m; sourceTree = "<group>"; };
+		1CD062991AFC6ABD004CBCFB /* FindFriendsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFriendsTableViewCell.h; sourceTree = "<group>"; };
+		1CD0629A1AFC6ABD004CBCFB /* FindFriendsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFriendsTableViewCell.m; sourceTree = "<group>"; };
+		1CD0629B1AFC6ABD004CBCFB /* FindFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFriendsViewController.h; sourceTree = "<group>"; };
+		1CD0629C1AFC6ABD004CBCFB /* FindFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFriendsViewController.m; sourceTree = "<group>"; };
+		1CD0629D1AFC6ABD004CBCFB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1CD0629E1AFC6ABD004CBCFB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1CD0629F1AFC6ABD004CBCFB /* InboxTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxTableViewCell.h; sourceTree = "<group>"; };
+		1CD062A01AFC6ABD004CBCFB /* InboxTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxTableViewCell.m; sourceTree = "<group>"; };
+		1CD062A11AFC6ABD004CBCFB /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		1CD062A21AFC6ABD004CBCFB /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		1CD062A31AFC6ABD004CBCFB /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		1CD062A41AFC6ABD004CBCFB /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		1CD062A51AFC6ABD004CBCFB /* InviteFriendsSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteFriendsSearchViewController.h; sourceTree = "<group>"; };
+		1CD062A61AFC6ABD004CBCFB /* InviteFriendsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteFriendsSearchViewController.m; sourceTree = "<group>"; };
+		1CD062A71AFC6ABD004CBCFB /* InviteFriendsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteFriendsTableViewCell.h; sourceTree = "<group>"; };
+		1CD062A81AFC6ABD004CBCFB /* InviteFriendsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteFriendsTableViewCell.m; sourceTree = "<group>"; };
+		1CD062A91AFC6ABD004CBCFB /* InviteFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteFriendsViewController.h; sourceTree = "<group>"; };
+		1CD062AA1AFC6ABD004CBCFB /* InviteFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteFriendsViewController.m; sourceTree = "<group>"; };
+		1CD062AB1AFC6ABD004CBCFB /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		1CD062AC1AFC6ABD004CBCFB /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		1CD062AD1AFC6ABD004CBCFB /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		1CD062AE1AFC6ABD004CBCFB /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		1CD062AF1AFC6ABD004CBCFB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1CD062B01AFC6ABD004CBCFB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1CD062B11AFC6ABD004CBCFB /* SendCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendCardTableViewCell.h; sourceTree = "<group>"; };
+		1CD062B21AFC6ABD004CBCFB /* SendCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendCardTableViewCell.m; sourceTree = "<group>"; };
+		1CD062B31AFC6ABD004CBCFB /* SendCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendCardViewController.h; sourceTree = "<group>"; };
+		1CD062B41AFC6ABD004CBCFB /* SendCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendCardViewController.m; sourceTree = "<group>"; };
+		1CD062B51AFC6ABD004CBCFB /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
+		1CD062B61AFC6ABD004CBCFB /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
+		1CD062B81AFC6ABD004CBCFB /* default_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_avatar.png; sourceTree = "<group>"; };
+		1CD062B91AFC6ABD004CBCFB /* default_avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_avatar@2x.png"; sourceTree = "<group>"; };
+		1CD062BA1AFC6ABD004CBCFB /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		1CD062BB1AFC6ABD004CBCFB /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		1CD062BC1AFC6ABD004CBCFB /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		1CD062BD1AFC6ABD004CBCFB /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		1CD062BE1AFC6ABD004CBCFB /* Icon-Small-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40.png"; sourceTree = "<group>"; };
+		1CD062BF1AFC6ABD004CBCFB /* Icon-Small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@2x.png"; sourceTree = "<group>"; };
+		1CD062C01AFC6ABD004CBCFB /* Icon-Small-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@3x.png"; sourceTree = "<group>"; };
+		1CD062C11AFC6ABD004CBCFB /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		1CD062C21AFC6ABD004CBCFB /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1CD062C31AFC6ABD004CBCFB /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		1CD062C51AFC6ABD004CBCFB /* ABRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRecord.h; sourceTree = "<group>"; };
+		1CD062C61AFC6ABD004CBCFB /* ABRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRecord.m; sourceTree = "<group>"; };
+		1CD062C71AFC6ABD004CBCFB /* CardCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCategory.h; sourceTree = "<group>"; };
+		1CD062C81AFC6ABD004CBCFB /* CardCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCategory.m; sourceTree = "<group>"; };
+		1CD062C91AFC6ABD004CBCFB /* CardImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardImage.h; sourceTree = "<group>"; };
+		1CD062CA1AFC6ABD004CBCFB /* CardImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardImage.m; sourceTree = "<group>"; };
+		1CD062CB1AFC6ABD004CBCFB /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		1CD062CC1AFC6ABD004CBCFB /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		1CD062CD1AFC6ABD004CBCFB /* Conversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversation.h; sourceTree = "<group>"; };
+		1CD062CE1AFC6ABD004CBCFB /* Conversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversation.m; sourceTree = "<group>"; };
+		1CD062CF1AFC6ABD004CBCFB /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		1CD062D01AFC6ABD004CBCFB /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		1CD062D11AFC6ABD004CBCFB /* HeyloConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyloConnection.h; sourceTree = "<group>"; };
+		1CD062D21AFC6ABD004CBCFB /* HeyloConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeyloConnection.m; sourceTree = "<group>"; };
+		1CD062D31AFC6ABD004CBCFB /* HeyloData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyloData.h; sourceTree = "<group>"; };
+		1CD062D41AFC6ABD004CBCFB /* HeyloData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeyloData.m; sourceTree = "<group>"; };
+		1CD062D51AFC6ABD004CBCFB /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		1CD062D61AFC6ABD004CBCFB /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		1CD062D71AFC6ABD004CBCFB /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		1CD062D81AFC6ABD004CBCFB /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		1CD062D91AFC6ABD004CBCFB /* GetMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMessages.h; sourceTree = "<group>"; };
+		1CD062DA1AFC6ABD004CBCFB /* GetMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMessages.m; sourceTree = "<group>"; };
+		1CD062DB1AFC6ABD004CBCFB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1CD062DC1AFC6ABD004CBCFB /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		1CD062DE1AFC6ABD004CBCFB /* HeaderGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderGradientView.h; sourceTree = "<group>"; };
+		1CD062DF1AFC6ABD004CBCFB /* HeaderGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderGradientView.m; sourceTree = "<group>"; };
+		1CD062E01AFC6ABD004CBCFB /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
+		1CD063151AFC6AD7004CBCFB /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1CD063171AFC6AE2004CBCFB /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		1CD063191AFC6AFA004CBCFB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1CD0631B1AFC6C71004CBCFB /* ConvFromTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvFromTableViewCell.h; sourceTree = "<group>"; };
+		1CD0631C1AFC6C71004CBCFB /* ConvFromTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvFromTableViewCell.m; sourceTree = "<group>"; };
+		1CD0631E1AFC6D49004CBCFB /* find_friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = find_friends.png; sourceTree = "<group>"; };
+		1CD0631F1AFC6D49004CBCFB /* fontello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello.ttf; sourceTree = "<group>"; };
+		1CD063201AFC6D49004CBCFB /* heylo_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heylo_image.png; sourceTree = "<group>"; };
+		1CD063211AFC6D49004CBCFB /* heylo_intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heylo_intro.png; sourceTree = "<group>"; };
+		1CD063221AFC6D49004CBCFB /* heylo_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heylo_logo.png; sourceTree = "<group>"; };
+		1CD063231AFC6D49004CBCFB /* heylo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = heylo.db; sourceTree = "<group>"; };
+		1CFBAD911B261B8500849C8A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1CFBAD941B261FC000849C8A /* alert1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert1.wav; sourceTree = "<group>"; };
+		1CFBAD951B261FC000849C8A /* alert2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert2.wav; sourceTree = "<group>"; };
+		1CFBAD961B261FC000849C8A /* alert3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert3.wav; sourceTree = "<group>"; };
+		1CFBAD9A1B26252000849C8A /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
+		1CFBAD9C1B26266A00849C8A /* arrow_swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arrow_swoosh.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CD062561AFC69ED004CBCFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFBAD921B261B8500849C8A /* AVFoundation.framework in Frameworks */,
+				1CD0631A1AFC6AFA004CBCFB /* libsqlite3.dylib in Frameworks */,
+				1CD063181AFC6AE2004CBCFB /* AddressBookUI.framework in Frameworks */,
+				1CD063161AFC6AD7004CBCFB /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD0626F1AFC69ED004CBCFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CD062501AFC69EC004CBCFB = {
+			isa = PBXGroup;
+			children = (
+				1CFBAD911B261B8500849C8A /* AVFoundation.framework */,
+				1CD063191AFC6AFA004CBCFB /* libsqlite3.dylib */,
+				1CD063171AFC6AE2004CBCFB /* AddressBookUI.framework */,
+				1CD063151AFC6AD7004CBCFB /* AddressBook.framework */,
+				1CD0625B1AFC69ED004CBCFB /* Heylo */,
+				1CD062751AFC69ED004CBCFB /* HeyloTests */,
+				1CD0625A1AFC69ED004CBCFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CD0625A1AFC69ED004CBCFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CD062591AFC69ED004CBCFB /* Heylo.app */,
+				1CD062721AFC69ED004CBCFB /* HeyloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CD0625B1AFC69ED004CBCFB /* Heylo */ = {
+			isa = PBXGroup;
+			children = (
+				1CFBAD931B261FC000849C8A /* Sounds */,
+				1CD0631E1AFC6D49004CBCFB /* find_friends.png */,
+				1CD0631F1AFC6D49004CBCFB /* fontello.ttf */,
+				1CD063201AFC6D49004CBCFB /* heylo_image.png */,
+				1CD063211AFC6D49004CBCFB /* heylo_intro.png */,
+				1CD063221AFC6D49004CBCFB /* heylo_logo.png */,
+				1CD063231AFC6D49004CBCFB /* heylo.db */,
+				1CD062821AFC6ABD004CBCFB /* Controllers */,
+				1CD062B71AFC6ABD004CBCFB /* images */,
+				1CD062C41AFC6ABD004CBCFB /* Models */,
+				1CD062DD1AFC6ABD004CBCFB /* Views */,
+				1CD062601AFC69ED004CBCFB /* AppDelegate.h */,
+				1CD062611AFC69ED004CBCFB /* AppDelegate.m */,
+				1CD062691AFC69ED004CBCFB /* Images.xcassets */,
+				1CD0626B1AFC69ED004CBCFB /* LaunchScreen.xib */,
+				1CD0625C1AFC69ED004CBCFB /* Supporting Files */,
+			);
+			path = Heylo;
+			sourceTree = "<group>";
+		};
+		1CD0625C1AFC69ED004CBCFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CD0625D1AFC69ED004CBCFB /* Info.plist */,
+				1CD0625E1AFC69ED004CBCFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CD062751AFC69ED004CBCFB /* HeyloTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CD062781AFC69ED004CBCFB /* HeyloTests.m */,
+				1CD062761AFC69ED004CBCFB /* Supporting Files */,
+			);
+			path = HeyloTests;
+			sourceTree = "<group>";
+		};
+		1CD062761AFC69ED004CBCFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CD062771AFC69ED004CBCFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CD062821AFC6ABD004CBCFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CD062AF1AFC6ABD004CBCFB /* RootViewController.h */,
+				1CD062B01AFC6ABD004CBCFB /* RootViewController.m */,
+				1CD062A31AFC6ABD004CBCFB /* IntroViewController.h */,
+				1CD062A41AFC6ABD004CBCFB /* IntroViewController.m */,
+				1CD062B51AFC6ABD004CBCFB /* UserDetailsViewController.h */,
+				1CD062B61AFC6ABD004CBCFB /* UserDetailsViewController.m */,
+				1CD062AD1AFC6ABD004CBCFB /* RegistrationViewController.h */,
+				1CD062AE1AFC6ABD004CBCFB /* RegistrationViewController.m */,
+				1CD062951AFC6ABD004CBCFB /* CountryCodeViewController.h */,
+				1CD062961AFC6ABD004CBCFB /* CountryCodeViewController.m */,
+				1CD062971AFC6ABD004CBCFB /* CountrySearchViewController.h */,
+				1CD062981AFC6ABD004CBCFB /* CountrySearchViewController.m */,
+				1CD062991AFC6ABD004CBCFB /* FindFriendsTableViewCell.h */,
+				1CD0629A1AFC6ABD004CBCFB /* FindFriendsTableViewCell.m */,
+				1CD0629B1AFC6ABD004CBCFB /* FindFriendsViewController.h */,
+				1CD0629C1AFC6ABD004CBCFB /* FindFriendsViewController.m */,
+				1CD062A51AFC6ABD004CBCFB /* InviteFriendsSearchViewController.h */,
+				1CD062A61AFC6ABD004CBCFB /* InviteFriendsSearchViewController.m */,
+				1CD062A71AFC6ABD004CBCFB /* InviteFriendsTableViewCell.h */,
+				1CD062A81AFC6ABD004CBCFB /* InviteFriendsTableViewCell.m */,
+				1CD062A91AFC6ABD004CBCFB /* InviteFriendsViewController.h */,
+				1CD062AA1AFC6ABD004CBCFB /* InviteFriendsViewController.m */,
+				1CD0629D1AFC6ABD004CBCFB /* HomeViewController.h */,
+				1CD0629E1AFC6ABD004CBCFB /* HomeViewController.m */,
+				1CD062871AFC6ABD004CBCFB /* CardCategoryViewController.h */,
+				1CD062881AFC6ABD004CBCFB /* CardCategoryViewController.m */,
+				1CD062851AFC6ABD004CBCFB /* CardCategoryCell.h */,
+				1CD062861AFC6ABD004CBCFB /* CardCategoryCell.m */,
+				1CD0628D1AFC6ABD004CBCFB /* CardSelectViewController.h */,
+				1CD0628E1AFC6ABD004CBCFB /* CardSelectViewController.m */,
+				1CD0628B1AFC6ABD004CBCFB /* CardImageCell.h */,
+				1CD0628C1AFC6ABD004CBCFB /* CardImageCell.m */,
+				1CD062891AFC6ABD004CBCFB /* CardCustomizeViewController.h */,
+				1CD0628A1AFC6ABD004CBCFB /* CardCustomizeViewController.m */,
+				1C089DFC1B29E3DD00080A54 /* CardSourceViewController.h */,
+				1C089DFD1B29E3DD00080A54 /* CardSourceViewController.m */,
+				1CD062B11AFC6ABD004CBCFB /* SendCardTableViewCell.h */,
+				1CD062B21AFC6ABD004CBCFB /* SendCardTableViewCell.m */,
+				1CD062B31AFC6ABD004CBCFB /* SendCardViewController.h */,
+				1CD062B41AFC6ABD004CBCFB /* SendCardViewController.m */,
+				1CD062AB1AFC6ABD004CBCFB /* MessagesViewController.h */,
+				1CD062AC1AFC6ABD004CBCFB /* MessagesViewController.m */,
+				1CD062A11AFC6ABD004CBCFB /* InboxViewController.h */,
+				1CD062A21AFC6ABD004CBCFB /* InboxViewController.m */,
+				1CD0629F1AFC6ABD004CBCFB /* InboxTableViewCell.h */,
+				1CD062A01AFC6ABD004CBCFB /* InboxTableViewCell.m */,
+				1CD0628F1AFC6ABD004CBCFB /* ConversationViewController.h */,
+				1CD062901AFC6ABD004CBCFB /* ConversationViewController.m */,
+				1CD0631B1AFC6C71004CBCFB /* ConvFromTableViewCell.h */,
+				1CD0631C1AFC6C71004CBCFB /* ConvFromTableViewCell.m */,
+				1CD062911AFC6ABD004CBCFB /* ConvImageTableViewCell.h */,
+				1CD062921AFC6ABD004CBCFB /* ConvImageTableViewCell.m */,
+				1CD062931AFC6ABD004CBCFB /* ConvToTableViewCell.h */,
+				1CD062941AFC6ABD004CBCFB /* ConvToTableViewCell.m */,
+				1C06ADC51B2F6E2F007DC5D7 /* ReplyViewController.h */,
+				1C06ADC61B2F6E2F007DC5D7 /* ReplyViewController.m */,
+				1C0221871B2DE701003A885A /* AccountViewController.h */,
+				1C0221881B2DE701003A885A /* AccountViewController.m */,
+				1CD062831AFC6ABD004CBCFB /* SettingsViewController.h */,
+				1CD062841AFC6ABD004CBCFB /* SettingsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1CD062B71AFC6ABD004CBCFB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1CD062B81AFC6ABD004CBCFB /* default_avatar.png */,
+				1CD062B91AFC6ABD004CBCFB /* default_avatar@2x.png */,
+				1CD062BA1AFC6ABD004CBCFB /* Icon-60@2x.png */,
+				1CD062BB1AFC6ABD004CBCFB /* icon-60@3x.png */,
+				1CD062BC1AFC6ABD004CBCFB /* Icon-76.png */,
+				1CD062BD1AFC6ABD004CBCFB /* Icon-76@2x.png */,
+				1CD062BE1AFC6ABD004CBCFB /* Icon-Small-40.png */,
+				1CD062BF1AFC6ABD004CBCFB /* Icon-Small-40@2x.png */,
+				1CD062C01AFC6ABD004CBCFB /* Icon-Small-40@3x.png */,
+				1CD062C11AFC6ABD004CBCFB /* Icon-Small.png */,
+				1CD062C21AFC6ABD004CBCFB /* Icon-Small@2x.png */,
+				1CD062C31AFC6ABD004CBCFB /* Icon-Small@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1CD062C41AFC6ABD004CBCFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CD062C51AFC6ABD004CBCFB /* ABRecord.h */,
+				1CD062C61AFC6ABD004CBCFB /* ABRecord.m */,
+				1CD062C71AFC6ABD004CBCFB /* CardCategory.h */,
+				1CD062C81AFC6ABD004CBCFB /* CardCategory.m */,
+				1CD062C91AFC6ABD004CBCFB /* CardImage.h */,
+				1CD062CA1AFC6ABD004CBCFB /* CardImage.m */,
+				1CD062CB1AFC6ABD004CBCFB /* Contact.h */,
+				1CD062CC1AFC6ABD004CBCFB /* Contact.m */,
+				1CD062CD1AFC6ABD004CBCFB /* Conversation.h */,
+				1CD062CE1AFC6ABD004CBCFB /* Conversation.m */,
+				1CD062CF1AFC6ABD004CBCFB /* Country.h */,
+				1CD062D01AFC6ABD004CBCFB /* Country.m */,
+				1CD062D11AFC6ABD004CBCFB /* HeyloConnection.h */,
+				1CD062D21AFC6ABD004CBCFB /* HeyloConnection.m */,
+				1CD062D31AFC6ABD004CBCFB /* HeyloData.h */,
+				1CD062D41AFC6ABD004CBCFB /* HeyloData.m */,
+				1CD062D51AFC6ABD004CBCFB /* ImageCache.h */,
+				1CD062D61AFC6ABD004CBCFB /* ImageCache.m */,
+				1CD062D71AFC6ABD004CBCFB /* Message.h */,
+				1CD062D81AFC6ABD004CBCFB /* Message.m */,
+				1CD062D91AFC6ABD004CBCFB /* GetMessages.h */,
+				1CD062DA1AFC6ABD004CBCFB /* GetMessages.m */,
+				1CD062DB1AFC6ABD004CBCFB /* User.h */,
+				1CD062DC1AFC6ABD004CBCFB /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CD062DD1AFC6ABD004CBCFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CD062DE1AFC6ABD004CBCFB /* HeaderGradientView.h */,
+				1CD062DF1AFC6ABD004CBCFB /* HeaderGradientView.m */,
+				1CD062E01AFC6ABD004CBCFB /* RootView.xib */,
+				1C0FE5381B21FB2900B5AC99 /* FlashView.h */,
+				1C0FE5391B21FB2900B5AC99 /* FlashView.m */,
+				1C2F3AC41B3F1B0F0015EE80 /* PopupView.h */,
+				1C2F3AC51B3F1B0F0015EE80 /* PopupView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1CFBAD931B261FC000849C8A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1C06ADC31B2F5166007DC5D7 /* whistle.mp3 */,
+				1CFBAD9C1B26266A00849C8A /* arrow_swoosh.mp3 */,
+				1CFBAD9A1B26252000849C8A /* tap.aif */,
+				1CFBAD941B261FC000849C8A /* alert1.wav */,
+				1CFBAD951B261FC000849C8A /* alert2.wav */,
+				1CFBAD961B261FC000849C8A /* alert3.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CD062581AFC69ED004CBCFB /* Heylo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD0627C1AFC69ED004CBCFB /* Build configuration list for PBXNativeTarget "Heylo" */;
+			buildPhases = (
+				1CD062551AFC69ED004CBCFB /* Sources */,
+				1CD062561AFC69ED004CBCFB /* Frameworks */,
+				1CD062571AFC69ED004CBCFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heylo;
+			productName = Heylo;
+			productReference = 1CD062591AFC69ED004CBCFB /* Heylo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CD062711AFC69ED004CBCFB /* HeyloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD0627F1AFC69ED004CBCFB /* Build configuration list for PBXNativeTarget "HeyloTests" */;
+			buildPhases = (
+				1CD0626E1AFC69ED004CBCFB /* Sources */,
+				1CD0626F1AFC69ED004CBCFB /* Frameworks */,
+				1CD062701AFC69ED004CBCFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CD062741AFC69ED004CBCFB /* PBXTargetDependency */,
+			);
+			name = HeyloTests;
+			productName = HeyloTests;
+			productReference = 1CD062721AFC69ED004CBCFB /* HeyloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CD062511AFC69EC004CBCFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Heylo;
+				TargetAttributes = {
+					1CD062581AFC69ED004CBCFB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1CD062711AFC69ED004CBCFB = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1CD062581AFC69ED004CBCFB;
+					};
+				};
+			};
+			buildConfigurationList = 1CD062541AFC69EC004CBCFB /* Build configuration list for PBXProject "Heylo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CD062501AFC69EC004CBCFB;
+			productRefGroup = 1CD0625A1AFC69ED004CBCFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CD062581AFC69ED004CBCFB /* Heylo */,
+				1CD062711AFC69ED004CBCFB /* HeyloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CD062571AFC69ED004CBCFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD062FB1AFC6ABD004CBCFB /* default_avatar.png in Resources */,
+				1CFBAD991B261FC000849C8A /* alert3.wav in Resources */,
+				1CD063001AFC6ABD004CBCFB /* Icon-76@2x.png in Resources */,
+				1CD063011AFC6ABD004CBCFB /* Icon-Small-40.png in Resources */,
+				1CD063271AFC6D49004CBCFB /* heylo_intro.png in Resources */,
+				1C06ADC41B2F5166007DC5D7 /* whistle.mp3 in Resources */,
+				1CD063061AFC6ABD004CBCFB /* Icon-Small@3x.png in Resources */,
+				1CD063041AFC6ABD004CBCFB /* Icon-Small.png in Resources */,
+				1CD063281AFC6D49004CBCFB /* heylo_logo.png in Resources */,
+				1CFBAD981B261FC000849C8A /* alert2.wav in Resources */,
+				1CD062FF1AFC6ABD004CBCFB /* Icon-76.png in Resources */,
+				1CD063251AFC6D49004CBCFB /* fontello.ttf in Resources */,
+				1CFBAD971B261FC000849C8A /* alert1.wav in Resources */,
+				1CD063261AFC6D49004CBCFB /* heylo_image.png in Resources */,
+				1CD063021AFC6ABD004CBCFB /* Icon-Small-40@2x.png in Resources */,
+				1CD062FC1AFC6ABD004CBCFB /* default_avatar@2x.png in Resources */,
+				1CD062FE1AFC6ABD004CBCFB /* icon-60@3x.png in Resources */,
+				1CD0626D1AFC69ED004CBCFB /* LaunchScreen.xib in Resources */,
+				1CFBAD9B1B26252000849C8A /* tap.aif in Resources */,
+				1CD0626A1AFC69ED004CBCFB /* Images.xcassets in Resources */,
+				1CD063141AFC6ABD004CBCFB /* RootView.xib in Resources */,
+				1CD063031AFC6ABD004CBCFB /* Icon-Small-40@3x.png in Resources */,
+				1CD063291AFC6D49004CBCFB /* heylo.db in Resources */,
+				1CD062FD1AFC6ABD004CBCFB /* Icon-60@2x.png in Resources */,
+				1CFBAD9D1B26266A00849C8A /* arrow_swoosh.mp3 in Resources */,
+				1CD063241AFC6D49004CBCFB /* find_friends.png in Resources */,
+				1CD063051AFC6ABD004CBCFB /* Icon-Small@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD062701AFC69ED004CBCFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CD062551AFC69ED004CBCFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD063111AFC6ABD004CBCFB /* GetMessages.m in Sources */,
+				1CD062E91AFC6ABD004CBCFB /* ConvToTableViewCell.m in Sources */,
+				1CD062ED1AFC6ABD004CBCFB /* FindFriendsViewController.m in Sources */,
+				1C089DFE1B29E3DD00080A54 /* CardSourceViewController.m in Sources */,
+				1C0221891B2DE701003A885A /* AccountViewController.m in Sources */,
+				1CD062F51AFC6ABD004CBCFB /* MessagesViewController.m in Sources */,
+				1CD063091AFC6ABD004CBCFB /* CardImage.m in Sources */,
+				1CD062E21AFC6ABD004CBCFB /* CardCategoryCell.m in Sources */,
+				1CD062E41AFC6ABD004CBCFB /* CardCustomizeViewController.m in Sources */,
+				1CD063121AFC6ABD004CBCFB /* User.m in Sources */,
+				1CD063131AFC6ABD004CBCFB /* HeaderGradientView.m in Sources */,
+				1C2F3AC61B3F1B0F0015EE80 /* PopupView.m in Sources */,
+				1C06ADC71B2F6E2F007DC5D7 /* ReplyViewController.m in Sources */,
+				1CD0630A1AFC6ABD004CBCFB /* Contact.m in Sources */,
+				1CD062E61AFC6ABD004CBCFB /* CardSelectViewController.m in Sources */,
+				1CD0630D1AFC6ABD004CBCFB /* HeyloConnection.m in Sources */,
+				1CD063071AFC6ABD004CBCFB /* ABRecord.m in Sources */,
+				1CD062E31AFC6ABD004CBCFB /* CardCategoryViewController.m in Sources */,
+				1CD0630E1AFC6ABD004CBCFB /* HeyloData.m in Sources */,
+				1CD062621AFC69ED004CBCFB /* AppDelegate.m in Sources */,
+				1CD062EE1AFC6ABD004CBCFB /* HomeViewController.m in Sources */,
+				1CD062F71AFC6ABD004CBCFB /* RootViewController.m in Sources */,
+				1CD0630C1AFC6ABD004CBCFB /* Country.m in Sources */,
+				1CD062FA1AFC6ABD004CBCFB /* UserDetailsViewController.m in Sources */,
+				1CD063081AFC6ABD004CBCFB /* CardCategory.m in Sources */,
+				1CD062F01AFC6ABD004CBCFB /* InboxViewController.m in Sources */,
+				1CD062F21AFC6ABD004CBCFB /* InviteFriendsSearchViewController.m in Sources */,
+				1CD062EC1AFC6ABD004CBCFB /* FindFriendsTableViewCell.m in Sources */,
+				1CD0630F1AFC6ABD004CBCFB /* ImageCache.m in Sources */,
+				1CD062E11AFC6ABD004CBCFB /* SettingsViewController.m in Sources */,
+				1CD0631D1AFC6C71004CBCFB /* ConvFromTableViewCell.m in Sources */,
+				1CD0625F1AFC69ED004CBCFB /* main.m in Sources */,
+				1CD062E51AFC6ABD004CBCFB /* CardImageCell.m in Sources */,
+				1CD062EA1AFC6ABD004CBCFB /* CountryCodeViewController.m in Sources */,
+				1CD062F61AFC6ABD004CBCFB /* RegistrationViewController.m in Sources */,
+				1CD0630B1AFC6ABD004CBCFB /* Conversation.m in Sources */,
+				1CD062EF1AFC6ABD004CBCFB /* InboxTableViewCell.m in Sources */,
+				1CD062EB1AFC6ABD004CBCFB /* CountrySearchViewController.m in Sources */,
+				1CD062F31AFC6ABD004CBCFB /* InviteFriendsTableViewCell.m in Sources */,
+				1CD062F91AFC6ABD004CBCFB /* SendCardViewController.m in Sources */,
+				1CD062F81AFC6ABD004CBCFB /* SendCardTableViewCell.m in Sources */,
+				1CD062F41AFC6ABD004CBCFB /* InviteFriendsViewController.m in Sources */,
+				1CD062E81AFC6ABD004CBCFB /* ConvImageTableViewCell.m in Sources */,
+				1CD062E71AFC6ABD004CBCFB /* ConversationViewController.m in Sources */,
+				1CD063101AFC6ABD004CBCFB /* Message.m in Sources */,
+				1C0FE53A1B21FB2900B5AC99 /* FlashView.m in Sources */,
+				1CD062F11AFC6ABD004CBCFB /* IntroViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD0626E1AFC69ED004CBCFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD062791AFC69ED004CBCFB /* HeyloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CD062741AFC69ED004CBCFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CD062581AFC69ED004CBCFB /* Heylo */;
+			targetProxy = 1CD062731AFC69ED004CBCFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CD0626B1AFC69ED004CBCFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CD0626C1AFC69ED004CBCFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CD0627A1AFC69ED004CBCFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CD0627B1AFC69ED004CBCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CD0627D1AFC69ED004CBCFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Heylo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CD0627E1AFC69ED004CBCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Heylo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CD062801AFC69ED004CBCFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeyloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heylo.app/Heylo";
+			};
+			name = Debug;
+		};
+		1CD062811AFC69ED004CBCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeyloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heylo.app/Heylo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CD062541AFC69EC004CBCFB /* Build configuration list for PBXProject "Heylo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD0627A1AFC69ED004CBCFB /* Debug */,
+				1CD0627B1AFC69ED004CBCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD0627C1AFC69ED004CBCFB /* Build configuration list for PBXNativeTarget "Heylo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD0627D1AFC69ED004CBCFB /* Debug */,
+				1CD0627E1AFC69ED004CBCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD0627F1AFC69ED004CBCFB /* Build configuration list for PBXNativeTarget "HeyloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD062801AFC69ED004CBCFB /* Debug */,
+				1CD062811AFC69ED004CBCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CD062511AFC69EC004CBCFB /* Project object */;
+}
